@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-body {
+    background-color: #004a87;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #5b94c5;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.logo-placeholder {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.login-box a {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.erro-msg {
+    color: red;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 220px;
+    background: #fff;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 4px solid #4a6c8a;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.filter select, .disciplinas select, .info-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}

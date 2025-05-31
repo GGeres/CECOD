@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - CECOD</title>
+    <link rel="stylesheet" href="tLogin.css">
+</head>
+<body class="login-body">
+    <header>
+        <h1>CECOD</h1>
+    </header>
+
+    <main class="login-container">
+        <div class="login-box">
+            <div class="logo-placeholder">Logo do CECOD</div>
+            <h2>CECOD</h2>
+            <input type="text" id="cpf" placeholder="CPF">
+            <input type="password" id="senha" placeholder="Senha">
+            <a href="#">Esqueci a Senha</a>
+            <button onclick="fazerLogin()">&lt; Enter</button>
+            <p id="erro" class="erro-msg"></p>
+        </div>
+    </main>
+
+    <script src="tLogin.js"></script>
+</body>
+</html>

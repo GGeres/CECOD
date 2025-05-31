@@ -1,0 +1,178 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #91bbc3;
+}
+
+header {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header h1 {
+    font-size: 1rem;
+    margin-right: auto;
+}
+
+header nav button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+header nav input {
+    flex: 1;
+    padding: 5px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 220px;
+    background: #fff;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 4px solid #4a6c8a;
+    width: 100%;
+    text-align: left;
+}
+
+.info-box p {
+    margin-bottom: 10px;
+}
+
+.info-box select {
+    width: 100%;
+    padding: 5px;
+}
+
+.sair {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.content {
+    flex: 1;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.filter {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.filter select {
+    padding: 5px;
+}
+
+.disciplinas select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+  .aluno-info {
+    background-color: #3d5c72;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .aluno-info div {
+    background-color: #d3d3d3;
+    color: black;
+    padding: 10px;
+  }
+
+  .sair {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .disciplinas {
+    margin-top: 20px;
+  }
+
+  .disciplina {
+    margin-bottom: 10px;
+  }
+
+  .disciplina-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .conteudo {
+    display: none;
+    background-color: #3d5c72;
+    padding: 20px;
+    margin-top: 5px;
+  }
+
+  .conteudo .item {
+    background-color: #d3d3d3;
+    margin: 10px;
+    padding: 20px;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  select {
+    padding: 5px;
+  }
+  .conteudo {
+    display: none;
+    background-color: #3d5c72;
+    padding: 20px;
+    margin-top: 5px;
+  }
+  
+  .conteudo.ativo {
+    display: block;
+  }
+  
