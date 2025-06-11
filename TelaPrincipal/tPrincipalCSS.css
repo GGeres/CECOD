@@ -108,71 +108,70 @@ aside {
 
 
 
-  .aluno-info {
-    background-color: #3d5c72;
-    padding: 10px;
-    width: 250px;
-    color: white;
-    margin-bottom: 20px;
-  }
+.aluno-info {
+  background-color: #3d5c72;
+  padding: 10px;
+  width: 250px;
+  color: white;
+  margin-bottom: 20px;
+}
 
-  .aluno-info div {
-    background-color: #d3d3d3;
-    color: black;
-    padding: 10px;
-  }
+.aluno-info div {
+  background-color: #d3d3d3;
+  color: black;
+  padding: 10px;
+}
 
-  .sair {
-    margin-top: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
+.sair {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
 
-  .disciplinas {
-    margin-top: 20px;
-  }
+.disciplinas {
+  margin-top: 20px;
+}
 
-  .disciplina {
-    margin-bottom: 10px;
-  }
+.disciplina {
+  margin-bottom: 10px;
+}
 
-  .disciplina-btn {
-    width: 100%;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ccc;
-    text-align: left;
-    cursor: pointer;
-    font-size: 16px;
-  }
+.disciplina-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-  .conteudo {
-    display: none;
-    background-color: #3d5c72;
-    padding: 20px;
-    margin-top: 5px;
-  }
+.conteudo {
+  display: none;
+  background-color: #3d5c72;
+  padding: 20px;
+  margin-top: 5px;
+}
 
-  .conteudo .item {
-    background-color: #d3d3d3;
-    margin: 10px;
-    padding: 20px;
-    width: 120px;
-    display: inline-block;
-    text-align: center;
-  }
+.conteudo .item {
+  background-color: #d3d3d3;
+  margin: 10px;
+  padding: 20px;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+}
 
-  select {
-    padding: 5px;
-  }
-  .conteudo {
-    display: none;
-    background-color: #3d5c72;
-    padding: 20px;
-    margin-top: 5px;
-  }
-  
-  .conteudo.ativo {
-    display: block;
-  }
-  
+select {
+  padding: 5px;
+}
+.conteudo {
+  display: none;
+  background-color: #3d5c72;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.conteudo.ativo {
+  display: block;
+}

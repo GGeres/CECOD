@@ -21,3 +21,14 @@ const buttons = document.querySelectorAll('.disciplina-btn');
     alert('Você saiu do sistema.');
     // window.location.href = 'login.html';
   });
+
+  const buttons = document.querySelectorAll('.disciplina-btn');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.classList.toggle('ativo');
+        const conteudo = btn.nextElementSibling;
+        if (conteudo) {
+          conteudo.style.display = conteudo.style.display === 'block' ? 'none' : 'block';
+        }
+      });
+    });
